@@ -1,6 +1,6 @@
 from collections import Collection
 
-class FrozenList(Collection):
+class ReadOnlyList(Collection):
     '''Don't forget the docstrings'''
 
     def __init__(self, *args, **kwargs):

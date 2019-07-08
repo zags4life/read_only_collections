@@ -1,6 +1,6 @@
 from collections import Mapping
 
-class FrozenDict(Mapping):
+class ReadOnlyDict(Mapping):
     """Don't forget the docstrings!!"""
 
     def __init__(self, *args, **kwargs):
