@@ -1,6 +1,6 @@
-from collections import Collection
+from collections import Sequence
 
-class ReadOnlyList(Collection):
+class ReadOnlyList(Sequence):
     '''Don't forget the docstrings'''
 
     def __init__(self, *args, **kwargs):
